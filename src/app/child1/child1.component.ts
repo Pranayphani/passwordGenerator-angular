@@ -39,7 +39,7 @@ export class Child1Component implements OnChanges{
     }
   }
 
-  ngOnChanges(changes: SimpleChanges): void {
+  ngOnChanges(): void {
       this.generatePassword();
   }
 }
